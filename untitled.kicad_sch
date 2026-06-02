@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3ca809d2-2ff2-4392-bcf2-749251d26d81")
+	(paper "A4")
+	(title_block
+		(title "Volumetric Weighing Machine")
+		(date "2026-02-11")
+		(rev "V01")
+	)
+	(lib_symbols)
+)
