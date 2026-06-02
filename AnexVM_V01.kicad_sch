@@ -1,0 +1,483 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f79e38fb-6fb4-4129-ac96-fcff977126ad")
+	(paper "A4")
+	(title_block
+		(title "Volumetric Weighing Machine")
+		(date "2026-03-19")
+		(rev "v.0.0.1")
+	)
+	(lib_symbols)
+	(text "Secondary_Controllers"
+		(exclude_from_sim no)
+		(at 100.203 74.803 0)
+		(effects
+			(font
+				(face "Cambria")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "0f281a8c-a5e1-4b38-a9f7-6924733b9dc7")
+	)
+	(text "Peripherals"
+		(exclude_from_sim no)
+		(at 99.949 149.479 0)
+		(effects
+			(font
+				(face "Cambria")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "2d9ad50e-3087-41a8-95f6-700fc6b41cb2")
+	)
+	(text "Primary_Controllers"
+		(exclude_from_sim no)
+		(at 188.595 37.973 0)
+		(effects
+			(font
+				(face "Cambria")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "3ba7c806-e89f-4b0d-abd7-4ed4dfc2d1c6")
+	)
+	(text "Load_Cell_Interface"
+		(exclude_from_sim no)
+		(at 190.119 113.157 0)
+		(effects
+			(font
+				(face "Cambria")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "64e4974a-87e9-4f5d-b12f-74ae6e548cda")
+	)
+	(text "Power Supply Section"
+		(exclude_from_sim no)
+		(at 99.187 38.989 0)
+		(effects
+			(font
+				(face "Cambria")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "70582754-cc27-440f-b131-fbbb65bc0a34")
+	)
+	(text "Camera_Interface"
+		(exclude_from_sim no)
+		(at 190.373 73.533 0)
+		(effects
+			(font
+				(face "Cambria")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "7c193177-8130-4989-a92d-217cb909566c")
+	)
+	(text "Ethernet_PHY"
+		(exclude_from_sim no)
+		(at 98.679 112.014 0)
+		(effects
+			(font
+				(face "Cambria")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "c8ee02b7-642c-4654-8573-9e7fad49321f")
+	)
+	(text "RTC & SD_card_Interface"
+		(exclude_from_sim no)
+		(at 189.357 149.733 0)
+		(effects
+			(font
+				(face "Cambria")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "ce9c771e-3aee-414e-a86e-79a85ed6e4c2")
+	)
+	(sheet
+		(at 166.37 27.305)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "2f1c9ca2-63df-425e-a576-7f32070fca91")
+		(property "Sheetname" "Main_Controllers"
+			(at 166.37 26.5934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Main_Controllers.kicad_sch"
+			(at 166.37 50.7496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AnexVM_V01"
+				(path "/f79e38fb-6fb4-4129-ac96-fcff977126ad"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 62.865)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "76542ba1-0249-4973-b007-93c2554e7518")
+		(property "Sheetname" "Camera_Interface"
+			(at 166.37 62.1534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Cemera_Interface.kicad_sch"
+			(at 166.37 86.3096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AnexVM_V01"
+				(path "/f79e38fb-6fb4-4129-ac96-fcff977126ad"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.835 64.135)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "767931cc-798d-4a21-a275-29c4745452c6")
+		(property "Sheetname" "Secondary_Controller"
+			(at 76.835 63.4234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Secondary_Controller.kicad_sch"
+			(at 76.835 87.5796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AnexVM_V01"
+				(path "/f79e38fb-6fb4-4129-ac96-fcff977126ad"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 138.43)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "9691ccce-b1fd-451f-971a-ac0bae48fe08")
+		(property "Sheetname" "RTC and SD_card_Interface"
+			(at 166.37 137.7184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTC and SD_card_Interface.kicad_sch"
+			(at 166.37 161.8746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AnexVM_V01"
+				(path "/f79e38fb-6fb4-4129-ac96-fcff977126ad"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.835 27.305)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "b2179115-63c1-4a7e-828f-8a042b9175d3")
+		(property "Sheetname" "Power Supply Section"
+			(at 76.835 26.5934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Supply Section.kicad_sch"
+			(at 76.835 50.7496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AnexVM_V01"
+				(path "/f79e38fb-6fb4-4129-ac96-fcff977126ad"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 101.6)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "c821f539-196b-4cbd-bf17-a50674ba7108")
+		(property "Sheetname" "Load_Cell_Interface"
+			(at 166.37 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Load_Cell_Interface.kicad_sch"
+			(at 166.37 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AnexVM_V01"
+				(path "/f79e38fb-6fb4-4129-ac96-fcff977126ad"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 101.6)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "f1564c87-1ebd-469a-8015-edc7932dd813")
+		(property "Sheetname" "Ethernet_PHY"
+			(at 77.47 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet_PHY.kicad_sch"
+			(at 77.47 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AnexVM_V01"
+				(path "/f79e38fb-6fb4-4129-ac96-fcff977126ad"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 138.43)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "fb650229-401d-47e9-8a76-ecd359db80e8")
+		(property "Sheetname" "Peripherals"
+			(at 77.47 137.7184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 77.47 161.8746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AnexVM_V01"
+				(path "/f79e38fb-6fb4-4129-ac96-fcff977126ad"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
